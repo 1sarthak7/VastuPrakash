@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-gray-900 font-sans antialiased transition-colors duration-200;
+  }
+  
+  .dark body {
+    @apply bg-[#1A1410] text-[#FAF7F2];
+    /* Adjust text colors slightly for dark mode contrast */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-indigo;
+  }
+  
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    @apply text-gold;
+  }
+}
+
+@layer utilities {
+  .card {
+    @apply bg-white dark:bg-[#251D17] border border-vastu rounded-[12px] shadow-vastu;
+  }
+  .btn-primary {
+    @apply bg-saffron text-white rounded-[8px] px-4 py-2 font-medium hover:bg-[#A94819] transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-saffron;
+  }
+  .btn-secondary {
+    @apply bg-transparent text-saffron border border-saffron rounded-[8px] px-4 py-2 font-medium hover:bg-saffron/10 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-saffron;
+  }
+}
