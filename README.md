@@ -36,3 +36,14 @@ This project is inherently safe to push to GitHub (including public repositories
 - **Styling**: TailwindCSS 
 - **Icons**: Lucide React
 - **AI Engine**: Google Gemini API (`gemini-2.5-flash` via REST Endpoint)
+
+<div align="center">
+
+Built with precision by [Sarthak Bhopale](https://github.com/1sarthak7).
+
+<br/>
+
+<sub>This is a portfolio/demonstration project and is not affiliated with or endorsed by Victor Hasselblad AB.</sub>
+<br/>
+
+</div
